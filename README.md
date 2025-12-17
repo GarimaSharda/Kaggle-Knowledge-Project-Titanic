@@ -33,8 +33,8 @@ The Jupyter notebook follows a simple progression:
 
 ## How to run
 
-1. Download the Titanic data (`train.csv`, `test.csv`, `gender_submission.csv`) from Kaggle.
-2. Place the files in the same folder as `Kaggle_Titanic_project.ipynb`.
+1. If you have the Kaggle API, then have the `KAGGLE_API_TOKEN` and `KAGGLE_USERNAME` in a .env file, or download the Titanic data (`train.csv`, `test.csv`, `gender_submission.csv`) from Kaggle.
+2. If you've used the Kaggle API, then data will be stored in the ./data directory, or place the files in the same folder as `Kaggle_Titanic_project.ipynb`.
 3. Open the notebook in Jupyter and run the cells from top to bottom.
 
 The notebook is meant as a learning exercise in basic EDA, feature engineering, and supervised classification on a well‑known dataset.
